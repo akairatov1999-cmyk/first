@@ -1,3 +1,7 @@
+import streamlit as st
+import numpy as np
+import joblib
+
 st.title("BMW Revenue Prediction")
 
 model = joblib.load("model.joblib")
